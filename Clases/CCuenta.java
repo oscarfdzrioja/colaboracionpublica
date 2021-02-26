@@ -16,6 +16,10 @@ public class CCuenta {
 	 * Devuelve el valor del atributo nombre de la clase 
 	 * @return nombre del propietario de la cuenta.
 	 */
+   
+   public void mostrarHola(){
+      System.out.println("Esta es una nueva funcionalidad para el proyecto.");
+   }
 	
     public String getNombre() {
 		return nombre;
